@@ -29,18 +29,30 @@ $gateway->setMerchantKey($merchantSecret->MerchantKey);
            
 Add the following lines in composer.json file:
 
-"repositories" : [{		
-			"type" : "composer",		
-			"url" : "https://packagist.org"		
+"repositories" : [{	
+
+			"type" : "composer",	
+			
+			"url" : "https://packagist.org"	
+			
 		},		
+		
 		{		
+		
 			"type" : "git",		
-			"url" : "https://github.com/mkgururani/omnipay-paytm",		
-			"reference": "master"		
-		}		
-	],		
-	"require-all": true,		
+			
+			"url" : "https://github.com/mkgururani/omnipay-paytm",	
+			
+			"reference": "master"	
+			
+		}	
+		
+	],	
+	
+	"require-all": true,
+	
 		
 		
-This line must be included in "require" : { }		
+This line must be included in "require" : { }	
+
 "omnipay-paytm" : "~0.1",		
